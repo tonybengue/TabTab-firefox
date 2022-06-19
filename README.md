@@ -6,4 +6,4 @@ It is available on:
 - [Firefox](https://addons.mozilla.org/fr/firefox/addon/tabtab/)
 
 # Ideas
-[] - Add new search engines
+- [ ] Add new search engines
