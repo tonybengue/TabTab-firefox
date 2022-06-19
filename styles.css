@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  font-family: sans-serif;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn-container {
+  margin-top: 1rem;
+}
+
+#date-text {
+  color: white;
+  font-size: 2.5rem;
+}
+
+#google-like-search-bar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  position: relative;
+}
+
+#google-like-search-bar-item datalist {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 0.8rem 1rem;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+#google-like-search-bar-container input {
+  display: block;
+  /* height: 100%; */
+  padding-left: .8rem;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+#google-like-search-bar-container button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  background: white;
+  color: black;
+  transition: 0.1s all ease-in;
+}
+
+#google-like-search-bar-container button:hover {
+  background: gray;
+  color: black;
+}
+
+#google-like-search-bar-container button:first-child {
+  margin-right: 1.5rem;
+}
+
+#google-like-search-bar {
+  display: flex;
+  /* display: block; */
+  width: 100%;
+  border-radius: 25px;
+  padding: 0.8rem 1rem;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  outline: none;
+  position: relative;
+  background-color: white;
+}
+#google-like-search-bar-logo {
+  display: flex;
+  align-items: center;
+}
+
+#google-like-search-bar-logo img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+#shortcuts-container {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 1rem;
+  width: 10%;
+  margin-top: 3rem;
+}
+
+#shortcuts-container .logo {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#me {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#me a {
+  /* text-decoration: none; */
+  font-weight: bold;
+  color: black;
+  transition: .2s all ease-in;
+}
+
+#me:hover a {
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+/* html,
+body {
+  width: 300px;
+}
+
+.page-choice {
+  width: 100%;
+  padding: 4px;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.page-choice:hover {
+  background-color: #CFF2F2;
+} */

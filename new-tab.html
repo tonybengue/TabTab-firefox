@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="./manifest.json">
+  <!-- <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"> -->
+</head>
+<body>
+  <div class="container">
+    <h1 id="date-text"></h1>
+    <div id="google-like-search-bar-container">
+      <div id="google-like-search-bar">
+        <div id="google-like-search-bar-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png">
+        </div>
+        <div id="google-like-search-bar-item">
+          <form autocomplete="off">
+            <input type="text" placeholder="Search" list="datalist-search">
+            <datalist id="datalist-search"></datalist>
+          </form>
+        </div>
+      </div>
+      <div id="btn-container">
+        <button id="google-search-btn">Google Search</button>
+        <button id="google-open-btn">Open Google</button>
+      </div>
+    </div>
+
+    <!-- <div id="shortcuts-container">
+      <div class="logo"></div>
+      <div class="logo"></div>
+      <div class="logo"></div>
+      <div class="logo"></div>
+      <div class="logo"></div>
+    </div>
+  -->
+  </div>
+
+  <div id="me">
+    Made by <a href="https://tonybengue.fr" target="_blank">Tony Bengué</a>
+  </div>
+
+  <script src="new-tab.js"></script>
+</body>
+</html>
