@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tabtab",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Modify the start page for new tabs",
   "icons": {
     "16": "/images/logo.svg",
@@ -12,8 +12,8 @@
   },
   "browser_action": {
     "default_icon": {
-      "19": "logo.svg",
-      "38": "logo.svg"
+      "19": "/images/logo.svg",
+      "38": "/images/logo.svg"
     },
     "default_title": "TABTAB",
     "default_popup": "popup/index.html"
@@ -22,7 +22,6 @@
     "newtab": "new-tab.html"
   },
   "permissions": [
-    "*://localhost/*",
     "*://www.google.com/*",
     "webRequest"
   ]
